@@ -3,3 +3,17 @@ RewriteEngine   on
 RewriteCond    %{HTTP_HOST}            reformonsledroitdauteur.eu                  [NC]
 RewriteRule    ^(.*)$                  http://www.reformonsledroitdauteur.eu/$1         [L,R=301]
 
+<IfModule mod_headers.c>
+	<FilesMatch "\\.(eot|ttf|woff2?)$">
+		Header set Cache-Control "max-age=172800, public"
+	</FilesMatch>
+	<FilesMatch "\\.min\\.(css|js)$">
+		Header set Cache-Control "max-age=172800, public"
+	</FilesMatch>
+	<FilesMatch "jquery\\.js$">
+		Header set Cache-Control "max-age=172800, public"
+	</FilesMatch>
+	<FilesMatch "\\.(x?html?|php)$">
+		Header set Cache-Control "max-age=600, private, must-revalidate"
+	</FilesMatch>
+</IfModule>
