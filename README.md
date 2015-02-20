@@ -1,3 +1,13 @@
+# [Site Réformons le droit d'auteur](http://www.reformonsledroitdauteur.eu) - [Parti Pirate](http://partipirate.org)
+
+Ce site permets de faire la promotion du rapport Reda sur la réforme du droit d'auteur en France où il est particulièrement attaqué aux noms d'intérêts industriels.
+L'objectif est d'informer les citoyens sur les avancées du rapport en faveur de la création et des consomateurs de biens culturels. 
+
+
+
+Ce site est construit avec une base start bootstrap (voir ci-dessous). 
+
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
 [Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
