@@ -38,7 +38,7 @@ $(function() {
     // Ajout Mistral : Patch la navbar qui n'applique pas le bon style au chargement
 	var patchScrollNavbar = function() {
 		var y = window.pageYOffset || docElem.scrollTop;
-		if ( y >= 300 ) {
+		if ( y >= 120 ) {
 			classie.add( document.querySelector( '.navbar-default' ), 'navbar-shrink' );
 		}
 	};

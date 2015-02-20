@@ -873,4 +873,6 @@ body {
 #Soutiens .team-member > p{
     height: 3.50em;
 }
-
+h1 {
+    display:none;
+}
