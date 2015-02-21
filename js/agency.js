@@ -11,9 +11,12 @@ $(function() {
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
-        //event.preventDefault();
-        //$(location).attr('href', '#toto');
-        event.stopPropagation();
+        //$(location).attr('href', $anchor.attr('href'));
+        event.preventDefault();
+        setTimeout( function() {
+        	$(location).attr('href', $anchor.attr('href'));
+        }, 1500 );
+        //event.stopPropagation();
     });
     // Ajout Mistral : Permets de quitter la modal au click exterieur
     $('.portfolio-modal').on('click', '.modal-content', function(event){
