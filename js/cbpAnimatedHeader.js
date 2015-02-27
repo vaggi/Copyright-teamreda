@@ -13,15 +13,22 @@ var cbpAnimatedHeader = (function() {
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-default' ),
 		didScroll = false,
-		changeHeaderOn = 120;
+		changeHeaderOn = 100;
 
+	function bindEvent(el, eventName, eventHandler) {
+		if (el.addEventListener) {
+			el.addEventListener(eventName, eventHandler, false);
+		} else if (el.attachEvent) {
+			el.attachEvent('on' + eventName, eventHandler);
+		}
+	}
 	function init() {
-		window.addEventListener( 'scroll', function( event ) {
+		bindEvent( window, 'scroll', function( event ) {
 			if( !didScroll ) {
 				didScroll = true;
 				setTimeout( scrollPage, 250 );
 			}
-		}, false );
+		});
 	}
 
 	function scrollPage() {
