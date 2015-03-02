@@ -38,15 +38,6 @@ $(function() {
 	var hreftag = $(location).attr('href').replace(/^(.*)#(.*)/i, '$2');
     $('.portfolio-modal[id="'+hreftag+'"]').modal('show');
 	$('#Reforme .portfolio-link[href="#Reforme-DRM"]');
-    // Ajout Mistral : Patch la navbar qui n'applique pas le bon style au chargement
-	var patchScrollNavbar = function() {
-		var y = window.pageYOffset || docElem.scrollTop;
-		if ( y >= 120 ) {
-			classie.add( document.querySelector( '.navbar-default' ), 'navbar-shrink' );
-		}
-	};
-	patchScrollNavbar();
-	//setTimeout( cbpAnimatedHeader.scrollPage, 2250 );
 });
 
 // Highlight the top nav as scrolling occurs

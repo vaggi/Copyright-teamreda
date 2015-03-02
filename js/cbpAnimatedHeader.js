@@ -12,8 +12,10 @@ var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-default' ),
+		share = document.querySelector( '#share' ),
 		didScroll = false,
-		changeHeaderOn = 100;
+		changeHeaderOn = 100,
+		changeShareOn = 644;
 
 	function bindEvent(el, eventName, eventHandler) {
 		if (el.addEventListener) {
@@ -29,6 +31,7 @@ var cbpAnimatedHeader = (function() {
 				setTimeout( scrollPage, 250 );
 			}
 		});
+		setTimeout( scrollPage, 250 );
 	}
 
 	function scrollPage() {
@@ -39,6 +42,12 @@ var cbpAnimatedHeader = (function() {
 		else {
 			classie.remove( header, 'navbar-shrink' );
 		}
+                if ( sy <= changeShareOn ) {
+                        classie.add( share, 'share-off' );
+                }
+                else {
+                        classie.remove( share, 'share-off' );
+                }
 		didScroll = false;
 	}
 

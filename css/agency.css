@@ -876,3 +876,23 @@ body {
 h1 {
     display:none;
 }
+#share {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align: center;
+    background-color: #FFF;
+    padding: 5px 0;
+}
+    #share.share-off {
+        display:none;
+    }
+    #share .title {
+       font-size:15px;
+       margin: 0 0 5px;
+    }
+        #share .rrssb-buttons {
+            max-width: 500px;
+            margin:0 auto;
+        }
