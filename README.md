@@ -1,12 +1,19 @@
-# [Site Réformons le droit d'auteur](http://www.reformonsledroitdauteur.eu) - [Parti Pirate](http://partipirate.org)
+# [Website Reform des Urheberrechts](https://www.reformcopyright.eu) - [Piratenpartei](https://www.piratenpartei.de/)
 
-Ce site permets de faire la promotion du rapport Reda sur la réforme du droit d'auteur en France où il est particulièrement attaqué aux noms d'intérêts industriels.
-L'objectif est d'informer les citoyens sur les avancées du rapport en faveur de la création et des consomateurs de biens culturels. 
+Diese Single-Page Website wurde von den französischen Piraten zur Unterstützung von MdEP Julia Redas Urheberrechtsberichts entwickelt, da besonders in Frankreich der Reda-Report stark von der Urheberrechts-Industrie unter Beschuss genommen.
+Ziel dieser Website ist es, die Öffentlichkeit, Kunst- und Kulturschaffende, Urheber sowie Konsumenten von Kulturgütern über den Stand des Berichts zu informieren und sie bei ihren Anfragen an ihre MdEPs zu dieser Thematik zu unterstützen.
 
 
+Die Site wurde mit einem Basis-Bootstrap-Theme realisiert (sieh unten).
 
-Ce site est construit avec une base start bootstrap (voir ci-dessous). 
 
+# [Website Reform Copyright](https://www.reformcopyright.eu/index_en.html) - [Piratenpartei](https://www.piratenpartei.de/)
+
+This single page website has been created by members of the French Pirate Party in order to support the copyright report prepared by MEP Julia Reda since especially the French copyright-industry is harshly attacking the Reda-Report.
+The aim of this website is to inform the general public as well as creators and consumers of cultural goods about the report and its progress, and assist them in their inquiries regarding that matter to their MEPs. 
+
+
+This site was created using a basic Bootsttap theme (see below).
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
