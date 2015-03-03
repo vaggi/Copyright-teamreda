@@ -13,7 +13,7 @@ This [Website](https://github.com/PartiPirate/Copyright-teamreda) has been creat
 The aim of this website is to inform the general public as well as creators and consumers of cultural goods about the report and its progress, and assist them in their inquiries regarding that matter to their MEPs. 
 
 
-This site was created using a basic Bootsttap theme (see below), translation by Florian Wagner.
+This site was created using a basic Bootstrap theme (see below), translation by Florian Wagner.
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
