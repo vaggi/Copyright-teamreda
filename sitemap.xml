@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
  <url>
-  <loc>http://www.reformonsledroitdauteur.eu/</loc>
+  <loc>https://www.reformcopyright.eu/</loc>
   <changefreq>daily</changefreq>
   <priority>1.0</priority>
  </url>
  <url>
-  <loc>http://www.reformonsledroitdauteur.eu/licences.html</loc>
+  <loc>https://www.reformcopyright.eu/lizenzen.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.1</priority>
+ </url>
+  <url>
+  <loc>https://www.reformcopyright.eu/index_en.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.1</priority>
+ </url>
+  <url>
+  <loc>https://www.reformcopyright.eu/licences.html</loc>
   <changefreq>weekly</changefreq>
   <priority>0.1</priority>
  </url>
