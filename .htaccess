@@ -1,7 +1,7 @@
-RewriteEngine   on
+RewriteEngine  on
 
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 <IfModule mod_headers.c>
 	<FilesMatch "\\.(eot|ttf|woff2?)$">
