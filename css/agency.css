@@ -4,19 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-@font-face {
-  font-family: 'Kaushan Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Kaushan Script'), local('KaushanScript-Regular'), url("../fonts/kaushanscript.woff2") format('woff2'), url("../fonts/kaushanscript.woff") format('woff');
-}
-
+@font-face { font-family: Kaushan Script; local: Kaushan Script; local: KaushanScript-Regular; font-style: normal; font-weight: 400; src: url("../fonts/kaushanscript.woff2") format('woff2'), url("../fonts/kaushanscript.woff") format('woff');}
 @font-face { font-family: DroidSans; local: DroidSans; src: url(../fonts/DroidSans.eot) format("embedded-opentype"), url(../fonts/DroidSans.ttf) format("truetype"); }
 @font-face { font-family: PoliticsHead; local: PoliticsHead; src: url(../fonts/PoliticsHeadv1_9.woff) format("woff"), url(../fonts/PoliticsHeadv1_9.ttf) format("truetype"); }
 
 body {
     overflow-x: hidden;
-    font-family: DroidSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana, "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -28,7 +22,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -216,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "DroidSans",Helvetica,Arial,sans-serif;
+    font-family: DroidSans,Helvetica,Arial,sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
@@ -291,16 +285,21 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: DroidSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: PoliticsHead, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
 }
 
+header .intro-text-lead-in {
+        font-size: 18px;
+    }
+
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: DroidSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -314,16 +313,20 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: DroidSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: PoliticsHead, "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
     }
 
+    header .intro-text-lead-in {
+        font-size: 26px;
+    }
+
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: DroidSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: Verdana, "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -343,7 +346,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -422,7 +425,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -801,7 +804,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: DroidSans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -876,8 +879,6 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #2693FF;
 }
-
-
 
 
 /* Perso Mistral */
