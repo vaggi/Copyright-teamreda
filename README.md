@@ -1,19 +1,19 @@
-# [Website Reform des Urheberrechts](https://www.reformcopyright.eu) - [Piratenpartei](https://www.piratenpartei.de/)
+# [Website Reform des Urheberrechts](https:/reformcopyright.eu) - [Piratenpartei](https://www.piratenpartei.de/)
 
-Diese [Website](https://github.com/PartiPirate/Copyright-teamreda) wurde von den [französischen Piraten](https://www.partipirate.org/) zur Unterstützung von MdEP Julia Redas Urheberrechtsberichts entwickelt, da besonders in Frankreich der Reda-Report stark von der Urheberrechts-Industrie unter Beschuss genommen.
+Diese Single-Page Website wurde von den französischen Piraten zur Unterstützung von MdEP Julia Redas Urheberrechtsberichts entwickelt, da besonders in Frankreich der Reda-Report stark von der Urheberrechts-Industrie unter Beschuss genommen.
 Ziel dieser Website ist es, die Öffentlichkeit, Kunst- und Kulturschaffende, Urheber sowie Konsumenten von Kulturgütern über den Stand des Berichts zu informieren und sie bei ihren Anfragen an ihre MdEPs zu dieser Thematik zu unterstützen.
 
 
-Die Site wurde mit einem Basis-Bootstrap-Theme realisiert (sieh unten), Übersetzung von Florian Wagner.
+Die Site wurde mit einem Basis-Bootstrap-Theme realisiert (sieh unten).
 
 
-# [Website Reform Copyright](https://www.reformcopyright.eu/index_en.html) - [Piratenpartei](https://www.piratenpartei.de/)
+# [Website Reform Copyright](https://reformcopyright.eu/en.html) - [Piratenpartei](https://www.piratenpartei.de/)
 
-This [Website](https://github.com/PartiPirate/Copyright-teamreda) has been created by members of the [French Pirate Party](https://www.partipirate.org/) in order to support the copyright report prepared by MEP Julia Reda since especially the French copyright-industry is harshly attacking the Reda-Report.
+This single page website has been created by members of the French Pirate Party in order to support the copyright report prepared by MEP Julia Reda since especially the French copyright-industry is harshly attacking the Reda-Report.
 The aim of this website is to inform the general public as well as creators and consumers of cultural goods about the report and its progress, and assist them in their inquiries regarding that matter to their MEPs. 
 
 
-This site was created using a basic Bootstrap theme (see below), translation by Florian Wagner.
+This site was created using a basic Bootsttap theme (see below).
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
